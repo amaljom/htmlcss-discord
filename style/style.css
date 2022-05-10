@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    margin: 0 auto;
+    width: 1920px;
+    text-align: center;
+}
+h1{
+    padding-bottom: 40px;
+}
+li a{
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.item3 p{
+    color: rgb(2, 2, 2);
+    padding: 13px;
+    background-color: aliceblue;
+    border-radius: 27px;
+}
+
+.inizio{
+    height: 45px;
+    width: 1920px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+    padding: 44px 260px;
+    background-color: #255ee9;  
+}
+
+.immagine-logo{
+    height: 40px;
+}
+.item1,{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    size: 20px;
+}
+.item2{
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+}
+.item3{
+    flex-grow: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    margin: 0 5px;  
+}
+
+.sez1{
+    width: 2000px;
+    height: 540px;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+.sezione1{
+    width: 820px;
+    
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.sez2{
+    background-color: rgb(173, 173, 189);
+    width: 2000px;
+    height: 560px;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+.h1-main{
+    color: rgb(0, 0, 0);
+    font-size: 51px;
+}
+p{
+    color: black;
+    font-size: 20px;
+}
+
+.sez3{
+
+    background-color: #fff;
+    width: 2000px;
+    height: 560px;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+.sezione2{
+    margin: 0 auto;
+    width: 1050px;
+    height: 425px;
+    display: flex;
+}
+
+.dim1{
+    height: 425px;
+    flex-grow: 6;
+}
+.dim2{
+    background-color: beige;
+    height: 425px;
+    flex-grow: 4;
+}
+
+.sez4{
+    margin: 0 auto;
+    background-color: rgb(116, 41, 41);
+    height: 800px;
+    width: 2000px;
+    padding-top: 56px;
+}
+
+.sezione3{
+    margin: 0 auto;
+    width: 1050px; 
+}
+.img-back{
+    background-image: url(../img/stars.svg);
+}
+
+.finale-main{
+    background-color: black;
+    height: 400px;
+    width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sez5{
+    display: flex;
+    justify-content: center;
+}
+
+.lato-sinistro{
+    background-color: #fff;
+    height: 350px;
+    width: 330px;
+}
+.lato-destro{
+    width: 720px;
+    display: flex;
+}
+
+.uno{
+    background-color: bisque;
+    height: 350px;
+    width: 20px;
+    flex-grow: 2;
+    border: dotted 1px #fff;
+}
+
+.divisore{
+    background-color: #fff;
+    height: 2px;
+}
+ 
+.fine{
+    margin: 0 auto;
+    height: 115px;
+    width: 2000px;
+    background-color: black;
+    padding-top: 48px;
+}
+
+.ultima-class{
+    background-color: beige;
+    width: 1050px;
+    height: 65px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
