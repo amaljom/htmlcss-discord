@@ -66,7 +66,7 @@ li a{
 }
 
 .sez1{
-    width: 2000px;
+    width: 1920px;
     height: 540px;
     margin: 0 auto;
     padding-top: 62px;
@@ -80,7 +80,7 @@ li a{
 
 .sez2{
     background-color: rgb(173, 173, 189);
-    width: 2000px;
+    width: 1920px;
     height: 560px;
     margin: 0 auto;
     padding-top: 62px;
@@ -97,7 +97,7 @@ p{
 .sez3{
 
     background-color: #fff;
-    width: 2000px;
+    width: 1920px;
     height: 560px;
     margin: 0 auto;
     padding-top: 62px;
@@ -121,7 +121,7 @@ p{
 
 .sez4{
     margin: 0 auto;
-    background-color: rgb(116, 41, 41);
+    background-color: rgb(209, 209, 209);
     height: 800px;
     width: 2000px;
     padding-top: 56px;
@@ -130,15 +130,26 @@ p{
 .sezione3{
     margin: 0 auto;
     width: 1050px; 
+    text-align: center;
 }
 .img-back{
     background-image: url(../img/stars.svg);
+    height: 50px;
+    width: 533px;
+    text-align:center;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: rgb(27, 25, 25);
+    width: 1920px;
+    margin: 0 auto;
+
 }
 
 .finale-main{
-    background-color: black;
     height: 400px;
-    width: 2000px;
+    width: 1920px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -165,6 +176,9 @@ p{
     flex-grow: 2;
     border: dotted 1px #fff;
 }
+.uno p{
+    padding: 5px 0px;
+}
 
 .divisore{
     background-color: #fff;
@@ -174,17 +188,22 @@ p{
 .fine{
     margin: 0 auto;
     height: 115px;
-    width: 2000px;
-    background-color: black;
+    width: 1920px;
     padding-top: 48px;
 }
 
 .ultima-class{
-    background-color: beige;
+    
     width: 1050px;
     height: 65px;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+}
+.link{
+    text-decoration: none;
+    padding: 13px;
+    background-color: aliceblue;
+    border-radius: 27px;
 }
