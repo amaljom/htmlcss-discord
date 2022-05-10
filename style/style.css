@@ -12,21 +12,58 @@ header{
     width: 1920px;
     text-align: center;
 }
-h1{
+.h1-head{
     padding-bottom: 40px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+.p-head{
+    color: #fff;
+    font-family: sans-serif;
 }
 li a{
     padding: 0px 10px;
     color: #fff;
 }
-
+.item3{
+    display: flex;
+    justify-content: center;
+}
 .item3 p{
     color: rgb(2, 2, 2);
     padding: 13px;
     background-color: aliceblue;
     border-radius: 27px;
+    margin: 31px 12px;
 }
+/* inseriamo i due link nel head */
+.due-link{
+    display: flex;
+    justify-content: center;
+}
+.primo-p{
+    color: rgb(2, 2, 2);
+    padding: 13px;
+    background-color: aliceblue;
+    border-radius: 27px;
+    margin: 31px 12px;
+}
+.altro-p{
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 27px;
+    margin: 31px 12px;
+}
+/* fine header */
 
+/* diamo un font family a tutti gli h1 */
+.h1-main{
+    color: rgb(0, 0, 0);
+    font-size: 44px;
+    font-family: sans-serif;
+}
 .inizio{
     height: 45px;
     width: 1920px;
@@ -51,18 +88,16 @@ li a{
     flex-grow: 3;
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
 }
-.item3{
-    flex-grow: 0;
-    display: flex;
-    justify-content: flex-end;
-}
+
 ul{
     list-style: none;
 }
 li a{
     text-decoration: none;
-    margin: 0 5px;  
+    margin: 0 5px; 
+
 }
 
 .sez1{
@@ -72,10 +107,9 @@ li a{
     padding-top: 62px;
 }
 .sezione1{
-    width: 820px;
-    
+    width: 777px;
     margin: 0 auto;
-    padding-top: 120px;
+    padding-top: 90px;
 }
 
 .sez2{
@@ -83,12 +117,11 @@ li a{
     width: 1920px;
     height: 560px;
     margin: 0 auto;
-    padding-top: 62px;
+    margin-top: 40px;
+    padding-top: 40px;
 }
-.h1-main{
-    color: rgb(0, 0, 0);
-    font-size: 51px;
-}
+
+
 p{
     color: black;
     font-size: 20px;
@@ -100,7 +133,7 @@ p{
     width: 1920px;
     height: 560px;
     margin: 0 auto;
-    padding-top: 62px;
+    padding: 70px 0px;
 }
 .sezione2{
     margin: 0 auto;
@@ -109,21 +142,14 @@ p{
     display: flex;
 }
 
-.dim1{
-    height: 425px;
-    flex-grow: 6;
-}
-.dim2{
-    background-color: beige;
-    height: 425px;
-    flex-grow: 4;
-}
+
+
 
 .sez4{
     margin: 0 auto;
     background-color: rgb(209, 209, 209);
     height: 800px;
-    width: 2000px;
+    width: 1920px;
     padding-top: 56px;
 }
 
@@ -161,11 +187,10 @@ footer{
 
 .lato-sinistro{
     background-color: #fff;
-    height: 350px;
-    width: 330px;
+    width: 390px;
 }
 .lato-destro{
-    width: 720px;
+    width: 1000px;
     display: flex;
 }
 
@@ -182,19 +207,22 @@ footer{
 
 .divisore{
     background-color: #fff;
-    height: 2px;
+    height: 1px;
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 90px;
 }
  
 .fine{
     margin: 0 auto;
     height: 115px;
-    width: 1920px;
-    padding-top: 48px;
+    width: 2000px;
+    padding-top: 10px;
 }
 
 .ultima-class{
     
-    width: 1050px;
+    width: 1400px;
     height: 65px;
     display: flex;
     margin: 0 auto;
