@@ -30,6 +30,24 @@ li a{
     display: flex;
     justify-content: center;
 }
+.link-1{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 13px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 27px;
+}
+.link-2{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 13px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 27px;
+    margin-left: 15px;
+    
+;
+
+}
 .item3 p{
     color: rgb(2, 2, 2);
     padding: 13px;
@@ -41,21 +59,9 @@ li a{
 .due-link{
     display: flex;
     justify-content: center;
+    margin-top: 15px;
 }
-.primo-p{
-    color: rgb(2, 2, 2);
-    padding: 13px;
-    background-color: aliceblue;
-    border-radius: 27px;
-    margin: 31px 12px;
-}
-.altro-p{
-    color: rgb(255, 255, 255);
-    padding: 13px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 27px;
-    margin: 31px 12px;
-}
+
 /* fine header */
 
 /* diamo un font family a tutti gli h1 */
@@ -63,6 +69,15 @@ li a{
     color: rgb(0, 0, 0);
     font-size: 44px;
     font-family: sans-serif;
+}
+/* diamo un font famili a tutti i p nel main */
+.p-main{
+    padding-top: 20px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.dim1{
+    align-self: end;
 }
 .inizio{
     height: 45px;
@@ -117,14 +132,23 @@ li a{
     width: 1920px;
     height: 560px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 90px;
     padding-top: 40px;
 }
 
+h2{
+    font-family: sans-serif;
+    font-size: 36px;
+}
+.lato-sinistro h2{
+    font-size: 40px;
+    color: #7e9deb;
+}
 
 p{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 .sez3{
@@ -133,7 +157,7 @@ p{
     width: 1920px;
     height: 560px;
     margin: 0 auto;
-    padding: 70px 0px;
+    padding: 140px 0px;
 }
 .sezione2{
     margin: 0 auto;
@@ -148,9 +172,12 @@ p{
 .sez4{
     margin: 0 auto;
     background-color: rgb(209, 209, 209);
-    height: 800px;
+    padding: 261px 0px;
     width: 1920px;
-    padding-top: 56px;
+    margin-top: 130px;
+}
+.stars{
+    padding: 38px;
 }
 
 .sezione3{
@@ -183,11 +210,13 @@ footer{
 .sez5{
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .lato-sinistro{
-    background-color: #fff;
+    
     width: 390px;
+    padding-top: 15px;
 }
 .lato-destro{
     width: 1000px;
@@ -195,28 +224,25 @@ footer{
 }
 
 .uno{
-    background-color: bisque;
-    height: 350px;
     width: 20px;
     flex-grow: 2;
-    border: dotted 1px #fff;
 }
 .uno p{
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 
 .divisore{
-    background-color: #fff;
+    background-color:#7e9deb;
     height: 1px;
     width: 1400px;
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 122px;
 }
  
 .fine{
     margin: 0 auto;
     height: 115px;
-    width: 2000px;
+    width: 1920px;
     padding-top: 10px;
 }
 
@@ -230,8 +256,26 @@ footer{
     align-items: center;
 }
 .link{
+    color: #fff;
     text-decoration: none;
     padding: 13px;
-    background-color: aliceblue;
+    background-color: rgb(76, 149, 212);
     border-radius: 27px;
+}
+
+.flex-finale{
+    display: flex;
+    margin-top: 20px;
+}
+.flex-finale img{
+    width: 30px;
+    margin-right: 10px;
+
+}
+.flex-finale p{
+    align-self: center;
+}
+.blue{
+    color: #7e9deb;
+    font-size: 23px;
 }
