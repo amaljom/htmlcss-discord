@@ -4,13 +4,26 @@
     box-sizing: border-box;
 
 }
-
+/* inizio header */
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     margin: 0 auto;
     width: 1920px;
     text-align: center;
+}
+.inizio{
+    height: 45px;
+    width: 1920px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+    padding: 44px 260px;
+    background-color: #255ee9;  
+}
+.immagine-logo{
+    height: 40px;
 }
 .h1-head{
     padding-bottom: 40px;
@@ -26,10 +39,7 @@ li a{
     padding: 0px 10px;
     color: #fff;
 }
-.item3{
-    display: flex;
-    justify-content: center;
-}
+
 .link-1{
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -44,25 +54,24 @@ li a{
     background-color: rgb(0, 0, 0);
     border-radius: 27px;
     margin-left: 15px;
-    
-;
 
 }
-.item3 p{
-    color: rgb(2, 2, 2);
-    padding: 13px;
-    background-color: aliceblue;
-    border-radius: 27px;
-    margin: 31px 12px;
-}
-/* inseriamo i due link nel head */
 .due-link{
     display: flex;
     justify-content: center;
     margin-top: 15px;
 }
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    margin: 0 5px; 
+}
 
 /* fine header */
+
+
 
 /* diamo un font family a tutti gli h1 */
 .h1-main{
@@ -75,30 +84,13 @@ li a{
     padding-top: 20px;
     font-size: 19px;
     font-family: sans-serif;
+    color: black;
 }
 .dim1{
     align-self: end;
 }
-.inizio{
-    height: 45px;
-    width: 1920px;
-    margin: 0 auto;
-    display: flex; 
-    justify-content: center;
-    align-items: center;  
-    padding: 44px 260px;
-    background-color: #255ee9;  
-}
 
-.immagine-logo{
-    height: 40px;
-}
-.item1,{
-    flex-grow: 1;
-    display: flex;
-    justify-content: flex-start;
-    size: 20px;
-}
+
 .item2{
     flex-grow: 3;
     display: flex;
@@ -106,14 +98,7 @@ li a{
     font-family: sans-serif;
 }
 
-ul{
-    list-style: none;
-}
-li a{
-    text-decoration: none;
-    margin: 0 5px; 
 
-}
 
 .sez1{
     width: 1920px;
@@ -128,7 +113,7 @@ li a{
 }
 
 .sez2{
-    background-color: rgb(173, 173, 189);
+    background-color: rgb(255 205 209);
     width: 1920px;
     height: 560px;
     margin: 0 auto;
@@ -165,13 +150,21 @@ p{
     height: 425px;
     display: flex;
 }
+.wave{
+    filter: invert(78%) sepia(174%) saturate(1130%) hue-rotate(-69deg) brightness(113%) contrast(123%);
+}
+.wave-2{
+    margin-top: 51px;
+    transform: rotate(180deg);
+}
 
-
-
+.wave-3{
+    margin-top: 47px;
+}
 
 .sez4{
     margin: 0 auto;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(255 205 209);
     padding: 261px 0px;
     width: 1920px;
     margin-top: 130px;
@@ -192,7 +185,7 @@ p{
     text-align:center;
     margin: 0 auto;
 }
-
+ /*inizio footer*/
 footer{
     background-color: rgb(27, 25, 25);
     width: 1920px;
@@ -211,6 +204,15 @@ footer{
     display: flex;
     justify-content: center;
     padding-top: 40px;
+}
+.icone{
+    color: #fff;
+    display: flex;
+    margin-top: 20px;
+}
+.icone i{
+    margin-right: 15px;
+    width: 10px;
 }
 
 .lato-sinistro{
