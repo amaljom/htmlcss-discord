@@ -13,13 +13,12 @@ header{
     text-align: center;
 }
 .inizio{
-    height: 45px;
+    
     width: 1920px;
-    margin: 0 auto;
     display: flex; 
     justify-content: center;
     align-items: center;  
-    padding: 44px 260px;
+    padding: 20px 260px;
     background-color: #255ee9;  
 }
 .immagine-logo{
@@ -68,6 +67,16 @@ li a{
     text-decoration: none;
     margin: 0 5px; 
 }
+.sez1{
+    margin: 0 auto;
+    padding: 158px 0px;
+}
+.sezione1{
+    width: 777px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
 
 /* fine header */
 
@@ -100,17 +109,6 @@ li a{
 
 
 
-.sez1{
-    width: 1920px;
-    height: 540px;
-    margin: 0 auto;
-    padding-top: 62px;
-}
-.sezione1{
-    width: 777px;
-    margin: 0 auto;
-    padding-top: 90px;
-}
 
 .sez2{
     background-color: rgb(255 205 209);
